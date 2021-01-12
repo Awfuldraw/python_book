@@ -71,7 +71,7 @@ class GoogleSearcher:
         self.browser.quit()
 
 
-domain_competittors = GoogleSearcher("웨얼울프", "screenshots", 5)
+domain_competittors = GoogleSearcher("python book", "screenshots", 5)
 domain_competittors.start()
 domain_competittors.finish()
 
